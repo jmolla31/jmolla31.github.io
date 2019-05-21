@@ -4,12 +4,14 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+Javi Mollà, jmollami, jmolla31, you name it.
 
-### More Information
+DotNet software architect, DevOps noob, Azure enthusiaust. Currently working at Everis Spain.
 
-A place to include any other types of information that you'd like to include about yourself.
+### Where's my shit?
+
+I post most of my public code here...but you can also find me in Gitlab and NuGet (while it still lasts).
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[javimollamico@gmail.com](mailto:javimollamico@gmail.com)
