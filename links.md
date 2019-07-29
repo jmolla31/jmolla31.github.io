@@ -4,14 +4,10 @@ title: Links
 permalink: /links/
 ---
 
-Javi Mollà, jmollami, jmolla31, you name it.
+Links and references to useful API's, resources and web pages I like or use (a glorified notepad, TBH).
 
-DotNet software architect, DevOps noob, Azure enthusiaust. Currently working at Everis Spain.
 
-### Where's my shit?
+## Frontend things, colors and shiny stuff
 
-I post most of my public code here...but you can also find me in Gitlab and NuGet (while it still lasts).
 
-### Contact me
-
-[javimollamico@gmail.com](mailto:javimollamico@gmail.com)
+* [Generate text colors compliant with accessibility guidelines (WCAG)](http://colorsafe.co)
