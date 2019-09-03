@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Breaking the Dotnet request pipeline inside of a filter.
+title: Breaking the Dotnet request pipeline inside of a filter
 ---
 
 *Just a brief extension of the last post...*

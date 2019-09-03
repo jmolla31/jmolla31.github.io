@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Using arrays of objects in AppService configurations.
+title: Using arrays of objects in AppService configurations
 ---
 
 Oooh my beloved configs...this may sound trivial but I lost quite a bit of time today with it so here it is to avoid you doing the same.

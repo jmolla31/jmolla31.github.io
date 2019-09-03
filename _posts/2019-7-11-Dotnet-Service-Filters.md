@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Using ActionFilters in Dotnet Core Web API's.
+title: Using ActionFilters in Dotnet Core Web API's
 ---
 
 
