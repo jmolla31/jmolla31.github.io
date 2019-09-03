@@ -1,14 +1,16 @@
 # Site settings
 title: "Javi Mollà"
 email: javimollamico@gmail.com
-description: "A dark blog theme for Jekyll."
+description: "My weird programming problems and (mostly) good solutions to them"
 baseurl: ""
-url: "http://carte-noire.jacobtomlinson.co.uk/"
-title_description: "My weird programming problems and (mostly) good solutions to them"
+url: "http://jmolla31.github.io"
+title_description: "My weird programming problems and 
+
+(mostly) good solutions to them"
 title_image: "https://avatars3.githubusercontent.com/u/33100083"
 google_analytics: 
 disqus_account: 
-github_repository: https://github.com/jacobtomlinson/carte-noire
+github_repository: https://github.com/jmolla31/jmolla31.github.io
 addthis_id: 
 post_limit: 5
 
