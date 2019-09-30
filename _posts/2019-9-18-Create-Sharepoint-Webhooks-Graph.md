@@ -31,5 +31,36 @@ Way 3...use the Graph API you already have integrated into your project to avoid
 
 ### Creating a Graph subscription
 
+Graph subscription objects are designed to work over a wide range of resources and services so we need them to "configure" them a bit.
 
-WIP
+The main fields of a subscription creation are:
+
+- ChangeType => What changes are going to trigger the subscription (updated,created,deleted)
+- NotificationUrl => Really, I need to explain this one?
+- Resource => What resource is going to be monitored for changes
+- ExpirationDateTime => Subscription lifetime, this changes from resource to resource but usually is something between 30 and 180 days.
+
+When accessing Sharepoint resources over Graph everything is considered as a "Drive" or "DriveItem" (hi there, OneDrive for Business) so we have some constraints over what we can do.
+
+First of all, you can only set a subscription over the root of a sharepoint library so the subscription will trigger for every change in any underlying item or folder.
+
+Because of this, only the ChangeType "updated" is valid.
+
+
+*(you need to know the driveId of the sharepoint library that you want to monitor...graphExplorer is very useful for this)*
+
+And aaaaaaalso, the max ExpirationDateTime is one month from the subscription creation date. You need to implement your own refresh/renewal service.
+
+Example of a valid Subscription model in C#:
+
+```csharp
+var subscription = new Subscription
+{
+    ChangeType = "updated",
+    NotificationUrl = notificationUrl,
+    Resource = $"drives/{driveId}/root",
+    ExpirationDateTime = DateTime.UtcNow.AddDays(30)
+
+};
+result = await this.graphStableClient.Subscriptions.Request().AddAsync(subscription);
+```
