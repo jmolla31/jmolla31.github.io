@@ -8,7 +8,7 @@ Believe, I almost went **FXXXX CRAZY** trying to get this working on a recent pr
 ![](https://raw.githubusercontent.com/jmolla31/jmolla31.github.io/master/images/avril-no-no-no-no.gif)
 
 
-### Microsoft Graph
+# Microsoft Graph
 
 I like the idea behind Graph (really, we use it in our projects and works fairly good although some features still need some elbow grease from the dev-team.).
 
@@ -16,7 +16,7 @@ Having a centralized entrypoint to the "suite" of Microsoft services that's REST
 
 *This may be one of those things that when you already know it seems stupid simple but believe me...I wasted almost two days to get it working*
 
-### Subscriptions are the new webhooks
+# Subscriptions are the new webhooks
 
 Wanting to create a new Sharepoint Webhook so you get notified when a new Avril Lavigne gif gets uploaded?
 
@@ -29,7 +29,7 @@ Way 3...use the Graph API you already have integrated into your project to avoid
 3 looks good? Welcome to the world of suscriptions and drives.
 
 
-### Creating a Graph subscription
+# Creating a Graph subscription
 
 Graph subscription objects are designed to work over a wide range of resources and services so we need them to "configure" them a bit.
 
