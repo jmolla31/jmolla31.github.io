@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Azure Functions tips and tricks #1
+title: Azure Functions tips and tricks 1, parameter parsing in http routes
 ---
 
 
@@ -9,7 +9,7 @@ I'm writing this one while waiting on Gatwick at 3:47 AM, with what has to be th
 ![](https://raw.githubusercontent.com/jmolla31/jmolla31.github.io/master/images/avril-nobodyshome-guitar.gif)
 
 
-*(MS Ignite has been a blast, stalk me on twitter to know more about my not-so-well handled life.)*
+(MS Ignite has been a blast, stalk me on twitter to know more about my not-so-well handled life.)
 
 
 ## Introduction
@@ -17,7 +17,7 @@ I'm writing this one while waiting on Gatwick at 3:47 AM, with what has to be th
 This is going to be a series of posts about little tricks and tips for dotnet core functions, short and to the point.
 
 
-### Parameter parsing in Http routing
+### Parameter parsing in Http routes
 
 The Functions webjobs host includes routing functionality for http requests, meaning that we can define and bind parameters in the http route...just like a classic kestrel API.
 
@@ -53,4 +53,3 @@ Example endpoint that retrieves comments based on a provided Guid value:
             return new OkObjectResult(this.myDummyService.GetComments(authorGuid));
         }
 ```
-
